@@ -1,6 +1,5 @@
 <?php
 namespace  pdffiller\LaravelTelegramNotifier;
-use GuzzleHttp;
 class TelegramNotifier
 {
     public function __construct( $token = null,  $channel_id = null)

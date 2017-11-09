@@ -3,7 +3,9 @@
     "description": "Error logging in Telegram",
     "type": "library",
     "license": "MIT",
-    "require": {},
+    "require": {
+		"monolog/monolog": "^1.23"
+	},
 	"autoload":{
 		"psr-4":{
       "pdffiller\\LaravelTelegramNotifier\\":"src"
